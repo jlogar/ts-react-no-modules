@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        // please noone ever uncomment the next line! we need strictness!
+        // "suppressImplicitAnyIndexErrors": true,
+        "outDir": "./build/",
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true
+        , "strict": true
+    }
+}

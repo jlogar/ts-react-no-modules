@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Hello React!</title>
+    </head>
+    <body>
+        <div id="example"></div>
+        <div id="example1"></div>
+        <div id="example2"></div>
+        <div id="example3"></div>
+        <div id="example4"></div>
+        <div id="example5"></div>
+        <div id="example6"></div>
+        <div id="example7"></div>
+
+        <!-- Dependencies -->
+        <!-- all these plain JS libs have to be bundled because react-hyperscript(-helpers)
+             use require(or modules of some sort) and need rect/react-dom in modules to import -->
+        <!-- <script src="../node_modules/react/dist/react.js"></script> -->
+        <!-- <script src="../node_modules/react-dom/dist/react-dom.js"></script> -->
+        <!-- <script src="../node_modules/react-hyperscript/index.js"></script> -->
+        <script src="react-bundle.js"></script>
+        
+        <!-- Main -->
+        <script src="stateful-comp.js"></script>
+        <script src="stateless-comp.js"></script>
+        <script src="index.js"></script>
+    </body>
+    <script>
+        ReactDOM.render(
+            hh.div('vanilla JS & hh from index.html'), document.getElementById("example")
+        );
+    </script>
+</html>
