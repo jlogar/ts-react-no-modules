@@ -14,13 +14,19 @@
         <div id="example6"></div>
         <div id="example7"></div>
 
+        <div id="x1">
+            <StatelessComp></StatelessComp>
+        </div>
+
         <!-- Dependencies -->
         <!-- all these plain JS libs have to be bundled because react-hyperscript(-helpers)
              use require(or modules of some sort) and need rect/react-dom in modules to import -->
         <!-- <script src="../node_modules/react/dist/react.js"></script> -->
+        <script src="../node_modules/react/umd/react.development.js"></script>
         <!-- <script src="../node_modules/react-dom/dist/react-dom.js"></script> -->
+        <script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
         <!-- <script src="../node_modules/react-hyperscript/index.js"></script> -->
-        <script src="react-bundle.js"></script>
+        <!-- <script src="react-bundle.js"></script> -->
         
         <!-- Main -->
         <script src="stateful-comp.js"></script>
@@ -28,8 +34,8 @@
         <script src="index.js"></script>
     </body>
     <script>
-        ReactDOM.render(
+        /* ReactDOM.render(
             hh.div('vanilla JS & hh from index.html'), document.getElementById("example")
-        );
+        ); */
     </script>
 </html>

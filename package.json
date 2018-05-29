@@ -4,20 +4,12 @@
   "description": "POC",
   "repository": "none as yet",
   "main": "index.js",
-  "scripts": {
-    "install": "browserify.cmd src/react-bundle.js -o build/react-bundle.js && tsc"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/react": "^15.6.6",
-    "@types/react-dom": "^15.5.6",
-    "@types/react-hyperscript": "^3.0.0",
-    "browserify-shim": "^3.8.14",
-    "hyperscript-helpers": "^3.0.3",
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
-    "react-hyperscript": "^3.0.0",
-    "react-hyperscript-helpers": "git+https://github.com/tock203/react-hyperscript-helpers.git"
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
   }
 }

@@ -6,10 +6,8 @@ namespace components {
         t1: number
     }
     export class StatefulComp extends React.Component<StatefulCompProps, StatefulCompState>{
-        constructor(props?: StatefulCompProps) {
+        constructor(props: StatefulCompProps) {
             super(props);
-            if(props === undefined)
-                throw "err";
             this.state = {
                 t1: props.t1init
             }

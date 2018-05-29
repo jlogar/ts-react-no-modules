@@ -9,6 +9,9 @@
         "declaration": false,
         "removeComments": true,
         "noLib": false,
+        "lib": [
+            "es5","es6","dom"
+        ],
         "preserveConstEnums": true,
         // please noone ever uncomment the next line! we need strictness!
         // "suppressImplicitAnyIndexErrors": true,
@@ -18,5 +21,10 @@
         "noImplicitThis": true,
         "alwaysStrict": true
         , "strict": true
-    }
+        , "jsx": "react"
+        , "sourceMap": true
+    },
+    "include": [
+        "./src/**/*"
+    ]
 }
