@@ -1,0 +1,61 @@
+- embed react in ng?
+- embed ng in react?
+
+
+good one on ngReact:
+https://hackernoon.com/how-to-migrate-an-application-from-angularjs-to-react-and-redux-de0e2d1f70aa
+
+not bad either (mogoče še najbolj bare metal)
+https://medium.com/walmartlabs/migrating-angular-1-x-apps-to-react-the-hybrid-way-3267ccf33755
+
+TS + react:
+https://github.com/sw-yx/react-typescript-cheatsheet
+
+https://github.com/ngReact/ngReact
+https://daveceddia.com/angular-directives-mapped-to-react/
+with redux:
+https://medium.com/@jrwebdev/migrating-an-angular-1-application-to-react-8891ec73d462
+my srces:
+https://github.com/jlogar/ts-react-no-modules/tree/no_hyper
+ng 1.5 (eg. react2angular):
+https://medium.freecodecamp.org/how-to-convert-an-angular-app-to-a-react-app-one-component-at-a-time-ba985eaae66e
+
+https://medium.com/@to_pe/how-to-add-react-to-a-simple-html-file-a11511c0235f
+
+validation:
+https://medium.com/code-monkey/client-side-form-validation-in-react-40e367de47ba
+too complicated? too abstracted - additional lib
+https://github.com/jaredpalmer/formik#using-formik-with-typescript
+zgleda fino, vendar zahteva mobx:
+https://github.com/formstate/formstate
+ne vem, če kaj pridobimo sploh:
+https://github.com/jurassix/react-validation-mixin
+TS + forms:
+https://www.carlrippon.com/building-react-form-component-typescript-basics/
+https://www.carlrippon.com/building-a-react-form-component-with-typescript-validation/
+
+validation - formik:
+https://www.npmjs.com/package/formik#validate-values-values--formikerrorsvalues--promiseany
+https://hackernoon.com/painless-react-forms-with-formik-e61b70473c60
+https://itnext.io/simple-react-form-validation-with-formik-yup-and-or-spected-206ebe9e7dcc
+https://keyholesoftware.com/2017/10/23/the-joy-of-forms-with-react-and-formik/
+
+https://github.com/Lemoncode/react-by-sample
+
+https://medium.com/@jrwebdev/react-higher-order-component-patterns-in-typescript-42278f7590fb
+
+default props dilemma:
+https://medium.com/@martin_hotell/react-typescript-and-defaultprops-dilemma-ca7f81c661c7
+https://twitter.com/TypeScriptDaily/status/1007247047697760256?s=03
+
+what we want? less ng clutter, probably react is the best option (large ecosystem, well known, active, compatible with TS(X), ...)
+
+must have:
+- gradual migration to react
+- minimum build time impact
+
+how to get the views going from routes/modules?
+
+
+----------------------------------------
+https://github.com/mweststrate/immer
