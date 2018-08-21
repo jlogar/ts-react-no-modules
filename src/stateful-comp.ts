@@ -21,6 +21,4 @@ namespace components {
             this.setState({ t1: this.state.t1 + 1 });
         }
     }
-
-    console.log(1);
 }

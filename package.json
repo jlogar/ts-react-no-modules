@@ -9,6 +9,7 @@
   "dependencies": {
     "@types/react": "^16.4.11",
     "@types/react-dom": "^16.0.7",
+    "formik": "^1.0.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   }

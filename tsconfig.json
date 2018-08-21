@@ -24,6 +24,7 @@
         , "jsx": "react"
         , "sourceMap": true
     },
+    "compileOnSave": true,
     "include": [
         "./src/**/*"
     ]

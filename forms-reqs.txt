@@ -1,0 +1,9 @@
+- initial values in ~ props
+- submit outside of form (not button type=submit)
+- must have isDirty on form (& possibly fields)
+- validation as functions
+- validation f per field
+- validation results accessible from outsides (callback with validation results?)
+- strong typed field values (FormProps<MyFieldValies>)
+- using render props instead of HOC
+- prevent double submit
